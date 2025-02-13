@@ -1,0 +1,92 @@
+export const categories = [
+  { id: 1, name: "Electronics" },
+  { id: 2, name: "Clothing" },
+  { id: 3, name: "Home Appliances" },
+];
+
+export const products = [
+  {
+    id: 1,
+    categoryId: 1,
+    name: "Laptop",
+    price: 1000,
+    image: "/images/laptop.jpg",
+  },
+  {
+    id: 2,
+    categoryId: 1,
+    name: "Smartphone",
+    price: 800,
+    image: "/images/smartphone.jpg",
+  },
+  {
+    id: 3,
+    categoryId: 1,
+    name: "Headphones",
+    price: 100,
+    image: "/images/headphones.jpg",
+  },
+  {
+    id: 4,
+    categoryId: 2,
+    name: "T-Shirt",
+    price: 20,
+    image: "/images/tshirt.jpg",
+  },
+  {
+    id: 5,
+    categoryId: 2,
+    name: "Jeans",
+    price: 50,
+    image: "/images/jeans.jpg",
+  },
+  {
+    id: 6,
+    categoryId: 2,
+    name: "Jacket",
+    price: 100,
+    image: "/images/jacket.jpg",
+  },
+  {
+    id: 7,
+    categoryId: 3,
+    name: "Refrigerator",
+    price: 500,
+    image: "/images/refrigerator.jpg",
+  },
+  {
+    id: 8,
+    categoryId: 3,
+    name: "Microwave",
+    price: 150,
+    image: "/images/microwave.jpg",
+  },
+  {
+    id: 9,
+    categoryId: 3,
+    name: "Washing Machine",
+    price: 300,
+    image: "/images/washing_machine.jpg",
+  },
+  {
+    id: 10,
+    categoryId: 1,
+    name: "Tablet",
+    price: 400,
+    image: "/images/tablet.jpg",
+  },
+  {
+    id: 11,
+    categoryId: 2,
+    name: "Dress",
+    price: 70,
+    image: "/images/dress.jpg",
+  },
+  {
+    id: 12,
+    categoryId: 3,
+    name: "Vacuum Cleaner",
+    price: 200,
+    image: "/images/vacuum_cleaner.jpg",
+  },
+];
